@@ -1,0 +1,128 @@
+* {
+  background-color: #d1c0a8;
+  box-sizing: border-box;
+  margin: 5px;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#screen {
+  height: 100%;
+  width: 100%;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.overskift {
+  color: #648981;
+  font-size: 2.25rem;
+  font-family: "Special Elite";
+}
+h2 {
+  color: #573622;
+  font-size: 2rem;
+  font-family: "Special Elite";
+}
+header {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  list-style: none;
+  z-index: -1;
+}
+
+li {
+  list-style: none;
+  background-color: #a0816c;
+  border-radius: 1000px;
+  margin: 5px;
+  padding: 25px;
+  width: 150px;
+  text-align: center;
+}
+header nav ul a {
+  background-color: #a0816c;
+  font-family: "Special Elite";
+  text-decoration: none;
+  font-size: 1rem;
+  color: #d1c0a8;
+}
+nav a:hover {
+  color: #573622;
+}
+
+/*web version*/
+@media (min-width: 992px) {
+  ul {
+    display: unset;
+  }
+
+  img {
+    height: 50%;
+    width: 50%;
+    aspect-ratio: 383.85/385.22;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+  }
+  h2 {
+    color: #573622;
+    font-size: 7rem;
+    font-family: "Special Elite";
+    position: absolute;
+    top: 80%;
+    right: 5%;
+  }
+  header {
+    position: absolute;
+    left: 11%;
+    bottom: 5%;
+    list-style: none;
+  }
+  li {
+    list-style: none;
+    background-color: #a0816c;
+    border-radius: 1000px;
+    margin: 20px;
+    padding: 40px;
+    width: 200px;
+    font-size: 3rem;
+    text-align: center;
+  }
+  header nav ul a {
+    background-color: #a0816c;
+    font-family: "Special Elite";
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: #d1c0a8;
+    justify-content: space-around;
+  }
+  nav a:hover {
+    color: #573622;
+  }
+
+  .overskift {
+    color: #648981;
+    rotate: -90deg;
+    font-size: 3.5rem;
+    font-family: "Special Elite";
+    height: min-content;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    right: 90%;
+    bottom: 0;
+  }
+}
+/*css JavaScript*/
+.hide {
+  display: none;
+}
+
+#sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(ommig.svg);
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246" height="178" viewBox="0 0 246 178">
+  <g id="Group_2" data-name="Group 2" transform="translate(-72 -59)">
+    <g id="KNAP" transform="translate(72 59)">
+      <g id="Rectangle_2" data-name="Rectangle 2" fill="#a0816c" stroke="#707070" stroke-width="1">
+        <rect width="246" height="50" rx="25" stroke="none"/>
+        <rect x="0.5" y="0.5" width="245" height="49" rx="24.5" fill="none"/>
+      </g>
+    </g>
+    <g id="KNAP-2" data-name="KNAP" transform="translate(72 123)">
+      <g id="Rectangle_2-2" data-name="Rectangle 2" fill="#a0816c" stroke="#707070" stroke-width="1">
+        <rect width="246" height="50" rx="25" stroke="none"/>
+        <rect x="0.5" y="0.5" width="245" height="49" rx="24.5" fill="none"/>
+      </g>
+    </g>
+    <g id="KNAP-3" data-name="KNAP" transform="translate(72 187)">
+      <g id="Rectangle_2-3" data-name="Rectangle 2" fill="#a0816c" stroke="#707070" stroke-width="1">
+        <rect width="246" height="50" rx="25" stroke="none"/>
+        <rect x="0.5" y="0.5" width="245" height="49" rx="24.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
