@@ -55,9 +55,9 @@ nav a:hover {
 
 /*web version*/
 @media (min-width: 600px) {
-  /* ul {
+  ul {
     display: unset;
-  } */
+  }
 
   img {
     height: 50%;
@@ -81,7 +81,7 @@ nav a:hover {
     bottom: 5%;
     list-style: none;
   }
-  li {
+  /*  li {
     list-style: none;
     background-color: #a0816c;
     font-size: 3rem;
@@ -89,7 +89,7 @@ nav a:hover {
     margin: 20px;
     padding: 40px;
     width: 200px;
-  }
+  } */
   header nav ul a {
     background-color: #a0816c;
     font-family: "Special Elite";
