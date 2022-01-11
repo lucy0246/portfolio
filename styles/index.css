@@ -55,9 +55,9 @@ nav a:hover {
 
 /*web version*/
 @media (min-width: 600px) {
-  ul {
+  /* ul {
     display: unset;
-  }
+  } */
 
   img {
     height: 50%;
@@ -84,12 +84,11 @@ nav a:hover {
   li {
     list-style: none;
     background-color: #a0816c;
-
+    font-size: 3rem;
+    text-align: center;
     margin: 20px;
     padding: 40px;
     width: 200px;
-    font-size: 3rem;
-    text-align: center;
   }
   header nav ul a {
     background-color: #a0816c;
