@@ -79,8 +79,14 @@ h2 {
   flex: 100%;
   max-width: 100%;
 }
+footer {
+  color: #648981;
 
-@media (min-width: 992px) {
+  font-family: "stint";
+  font-size: 1.4rem;
+}
+
+@media (min-width: 600px) {
   * {
     margin: 10px;
   }
@@ -133,7 +139,8 @@ h2 {
     margin: auto;
   }
 
-  h2 {
+  h2,
+  h3 {
     background-color: #d1c0a8;
     color: #a0816c;
     font-family: "Special Elite";
@@ -155,20 +162,11 @@ h2 {
     padding: 15px;
     margin: 20px;
   }
-  #second_section p {
+  #second_section p,
+  a {
     background-color: #d1c0a8;
     color: #a0816c;
     font-family: "stint";
     font-size: 1.4rem;
-  }
-
-  #third_section {
-    gap: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  #third_section img {
-    max-width: 100%;
-    max-height: 100%;
   }
 }

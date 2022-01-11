@@ -79,7 +79,13 @@ h2 {
   flex: 100%;
   max-width: 100%;
 }
-@media (min-width: 992px) {
+footer {
+  color: #648981;
+
+  font-family: "stint";
+  font-size: 1.4rem;
+}
+@media (min-width: 600px) {
   * {
     margin: 10px;
   }
@@ -132,10 +138,46 @@ h2 {
     margin: auto;
   }
 
-  h2 {
+  h2,
+  h3 {
     background-color: #d1c0a8;
     color: #a0816c;
     font-family: "Special Elite";
+  }
+  #fourth_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 5px;
+  }
+  #third_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #a0816c;
+    padding: 15px;
+    margin: 20px;
+  }
+  .pilot1 {
+    color: #d1c0a8;
+    background-color: #a0816c;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .pilot2 {
+    color: #d1c0a8;
+    background-color: #a0816c;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  #third_section p {
+    color: #d1c0a8;
+    background-color: #a0816c;
+    font-family: "stint";
+    font-size: 1.4rem;
+  }
+  #third_section h2 {
+    color: #d1c0a8;
+    background-color: #a0816c;
   }
   #first_section {
     background-color: #a0816c;
@@ -154,26 +196,11 @@ h2 {
     padding: 15px;
     margin: 20px;
   }
-  #second_section p {
+  #second_section p,
+  a {
     background-color: #d1c0a8;
     color: #a0816c;
     font-family: "stint";
     font-size: 1.4rem;
-  }
-
-  #third_section {
-    gap: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-
-  .billede1 {
-    grid-column: 1/2;
-    grid-row: 1/3;
-  }
-  #third_section img {
-    max-width: 100%;
-    max-height: 100%;
   }
 }
