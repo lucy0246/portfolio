@@ -59,6 +59,10 @@ nav a:hover {
   ul {
     display: unset;
   }
+  li {
+    height: 100px;
+    text-align: center;
+  }
 
   img {
     height: 50%;
