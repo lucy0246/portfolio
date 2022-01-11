@@ -47,7 +47,9 @@ nav a:hover {
   padding: 15px;
   margin: 20px;
 }
-#second_section p {
+#second_section p,
+a {
+  font-family: "Stint";
   color: #d1c0a8;
   background-color: #a0816c;
 }
@@ -67,7 +69,8 @@ nav a:hover {
   margin: 20px;
   justify-content: space-evenly;
 }
-h2 {
+h2,
+h3 {
   font-size: 2.25rem;
   color: #d1c0a8;
   background-color: #a0816c;

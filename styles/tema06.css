@@ -34,24 +34,37 @@ nav a:hover {
   color: #573622;
 }
 h1 {
-  color: #d1c0a8;
-  background-color: #a0816c;
+  color: #a0816c;
+
   font-size: 3rem;
   font-family: "Special Elite";
   margin: auto;
 }
 h2 {
   font-size: 2.25rem;
-  background-color: #d1c0a8;
-  color: #a0816c;
-  font-family: "Special Elite";
-}
-#first_section p {
   color: #d1c0a8;
   background-color: #a0816c;
+  font-family: "Special Elite";
+  margin: auto;
+}
+#first_section {
+  padding: 15px;
+  margin: 20px;
+  color: #a0816c;
   font-family: "stint";
   font-size: 1.4rem;
 }
+#second_section p {
+  font-family: "Stint";
+  color: #d1c0a8;
+  background-color: #a0816c;
+}
+#second_section {
+  background-color: #a0816c;
+  padding: 15px;
+  margin: 20px;
+}
+
 footer {
   color: #648981;
 
@@ -95,6 +108,19 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  h1 {
+    color: #d1c0a8;
+    background-color: #a0816c;
+    font-size: 3rem;
+    font-family: "Special Elite";
+    margin: auto;
+  }
+  #first_section p {
+    color: #d1c0a8;
+    background-color: #a0816c;
+    font-family: "stint";
+    font-size: 1.4rem;
+  }
 
   #first_section {
     padding: 15px;
@@ -108,12 +134,19 @@ footer {
     font-size: 1.4rem;
   }
   #second_section {
-    grid-column: 2/3;
-
+    background-color: #d1c0a8;
     padding: 15px;
     margin: 20px;
   }
+  h2 {
+    font-size: 2.25rem;
+    color: #a0816c;
+    background-color: #d1c0a8;
+    font-family: "Special Elite";
+    margin: auto;
+  }
   #second_section p {
+    background-color: #d1c0a8;
     color: #a0816c;
     font-family: "stint";
     font-size: 1.4rem;
