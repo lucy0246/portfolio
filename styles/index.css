@@ -36,7 +36,7 @@ header {
 li {
   list-style: none;
   background-color: #a0816c;
-  border-radius: 1000px;
+  border-radius: 500px;
   margin: 5px;
   padding: 25px;
   width: 150px;
@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 /*web version*/
-@media (min-width: 992px) {
+@media (min-width: 600px) {
   ul {
     display: unset;
   }
